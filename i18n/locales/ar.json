@@ -1,0 +1,46 @@
+
+
+{   
+    "hello": "مرحبًا",
+    "home": "بيت",
+    "history": "تاريخ",
+    "book": "كتاب",
+
+    "light": "ضوء",
+    "dark": "مظلم",
+    "system": "نظام",
+    "name": "اسم",
+    "date_joined": "تاريخ الانضمام",
+
+    "user": "مستخدم",
+    "theme_settings": "إعدادات الموضوع",
+    "language_settings": "اعدادات اللغة",
+    "settings": "إعدادات",
+
+    "sign_out": "خروج",
+    "share_app": "شارك التطبيق",
+    "search": "يبحث",
+
+    "login": "تسجيل الدخول",
+    "sign_up": "اشتراك",
+    "email": "بريد إلكتروني",
+    "password": "كلمة المرور",
+    "password_requirements": "يجب أن يكون الحد الأدنى 3 أحرف",
+    "enter_password": "أدخل كلمة المرور",
+    "submit": "يُقدِّم",
+    "sign_in_with_google": "الدخول مع جوجل",
+    "dont_have_an_account": "ليس لديك حساب؟",
+    "or sign up with...": "أو قم بالتسجيل باستخدام ...",
+    "email_phone_or_username": "الايميل و الرقم و الاسم الشخصي",
+    "user_id": "مستخدم",
+
+    "full_name": "الاسم الكامل",
+    "username": "اسم المستخدم",
+    "phone_number": "رقم التليفون",
+    "date_of_birth": "تاريخ الميلاد",
+    "confirm_password": "تأكيد كلمة المرور",
+    "have_an_account": "هل لديك حساب؟",
+    "create_account": "إنشاء حساب",
+
+    "is_required": "مطلوب"
+}

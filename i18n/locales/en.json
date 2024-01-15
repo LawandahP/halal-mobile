@@ -1,0 +1,43 @@
+{   
+    "hello": "Hello",
+    "home": "Home",
+    "history": "History",
+    "book": "Book",
+
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "name": "Name",
+    "date_joined": "Date Joined",
+    "user": "User",
+    "theme_settings": "Theme Settings",
+    "language_settings": "Language Settings",
+    "settings": "Settings",
+
+    "sign_out": "Sign Out",
+    "share_app": "Share App",
+    "search": "Search",
+    "login": "Login",
+    "sign_up": "Sign Up",
+    "email": "Email Address",
+    "password": "Password",
+    "password_requirements": "should be minimum 3 characters long",
+    "enter_password": "Enter Password",
+    "submit": "Submit",
+    "sign_in_with_google": "Sign in with Google",
+    "dont_have_an_account": "Don't have an account?",
+    "or sign up with...": "or sign up with...",
+    "email_phone_or_username": "Email, Phone or Username",
+    "user_id": "User",
+
+    "full_name": "Full Name",
+    "username": "Username",
+    "phone_number": "Phone Number",
+    "date_of_birth": "Date Of Birth",
+    "confirm_password": "Confirm Password",
+    "have_an_account": "Have an account?",
+    "create_account": "Create Account",
+    "is_required": "is required"
+    
+
+}
