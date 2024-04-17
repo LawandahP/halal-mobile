@@ -6,14 +6,12 @@ import { useTheme } from '../../../contexts/themeContext';
 import { Colors, InputIcon, StyledTextInput } from '../../components/styles';
 
 import Heading from '../../components/Heading';
-import DateTimePicker from '@react-native-community/datetimepicker';
+// import DateTimePicker from '@react-native-community/datetimepicker';
 import { MaterialIcons } from '@expo/vector-icons';
 
-interface Props {
-    hideModal: any
-}
 
-export default function BookingModal({hideModal}: Props) {
+
+export default function BookingScreen() {
   const { theme } = useTheme();
   let activeColors = Colors[theme.mode];
   
@@ -39,14 +37,14 @@ export default function BookingModal({hideModal}: Props) {
   }
 
   return (
-    <SafeAreaView style={[styles.container, { backgroundColor: activeColors.primary }]}>
+    <View style={[styles.container, { backgroundColor: activeColors.primary }]}>
         <ScrollView style={{ backgroundColor: activeColors.primary }}>
-            <TouchableOpacity 
+            {/* <TouchableOpacity 
                 onPress={() => hideModal()}
                 style={{display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 15, marginBottom: 20}}>
                 <MaterialCommunityIcons name="window-close" size={25} color={activeColors.light} />
                 <Text style={{fontFamily: 'outfit', color: activeColors.light, fontSize: 22}}>Booking</Text>
-            </TouchableOpacity>
+            </TouchableOpacity> */}
             
             <Heading heading={'Select Date'} />
             
@@ -64,7 +62,7 @@ export default function BookingModal({hideModal}: Props) {
                     <MaterialIcons name="date-range" size={27} color={Colors.brand} />
                 </InputIcon>
 
-                { showPicker && 
+                {/* { showPicker && 
                     <DateTimePicker 
                         mode="date" 
                         display='spinner' 
@@ -82,7 +80,7 @@ export default function BookingModal({hideModal}: Props) {
                             onPressIn={toggleDatePicker}
                         />
                     </Pressable>
-                }
+                } */}
             </View>
            
 
@@ -96,14 +94,15 @@ export default function BookingModal({hideModal}: Props) {
                 />
             </View> */}
         </ScrollView>
-    </SafeAreaView>
+    </View>
   )
 }
 
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        padding: 20
+        padding: 20,
+        marginTop: 80
     },
     calenderContainer: {
         flex: 1,

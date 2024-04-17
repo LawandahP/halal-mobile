@@ -35,7 +35,7 @@ export default function Header() {
       </View>
 
       {/* SearchBar Section */}
-      <View style={styles.searchButtonContainer}>
+      {/* <View style={styles.searchButtonContainer}>
         <TextInput
           style={styles.search}
           placeholder={`${t("search")}`}
@@ -47,7 +47,7 @@ export default function Header() {
           style={styles.searchBtn}
           color={Colors.brand}
         />
-      </View>
+      </View> */}
     </View> 
   )
 }
@@ -83,14 +83,15 @@ const styles = StyleSheet.create({
       display: 'flex',
       flexDirection: 'row',
       alignItems: 'center',
-      gap: 10
+      gap: 10,
     },
 
     profileMainContainer: {
       display: 'flex',
       flexDirection: 'row',
       alignItems: 'center',
-      justifyContent: 'space-between'
+      justifyContent: 'space-between',
+      marginTop: 20
     },
 
     searchButtonContainer: {

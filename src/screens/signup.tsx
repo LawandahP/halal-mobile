@@ -16,7 +16,7 @@ import {
   TextLinkContent,
 } from "../components/styles";
 
-import DateTimePickerModal from "react-native-modal-datetime-picker";
+// import DateTimePickerModal from "react-native-modal-datetime-picker";
 import {
   Alert,
   StatusBar,
@@ -58,20 +58,20 @@ const SignUp = (props: SignUpProps) => {
 
   const [dob, setDob] = useState<Date>();
 
-  const showDatePicker = () => {
-    setDatePickerVisibility(true);
-  };
+  // const showDatePicker = () => {
+  //   setDatePickerVisibility(true);
+  // };
 
-  const hideDatePicker = () => {
-    setDatePickerVisibility(false);
-  };
+  // const hideDatePicker = () => {
+  //   setDatePickerVisibility(false);
+  // };
 
-  const handleConfirm = (selectedDate: any) => {
-    const currentDate = selectedDate || date;
-    setDate(currentDate);
-    setDob(currentDate.toDateString());
-    hideDatePicker();
-  };
+  // const handleConfirm = (selectedDate: any) => {
+  //   const currentDate = selectedDate || date;
+  //   setDate(currentDate);
+  //   setDob(currentDate.toDateString());
+  //   hideDatePicker();
+  // };
 
   const initialVals: any = {
     full_name: "",
@@ -141,14 +141,14 @@ const SignUp = (props: SignUpProps) => {
         <FormArea>
           {/* <PageLogo resizeMode="cover" source={require('./../assets/images/image1.jpg')} /> */}
 
-          {isDatePickerVisible && (
+          {/* {isDatePickerVisible && (
             <DateTimePickerModal
               isVisible={isDatePickerVisible}
               mode="date"
               onConfirm={handleConfirm}
               onCancel={hideDatePicker}
             />
-          )}
+          )} */}
 
           <CustomInput
             icon="person"
